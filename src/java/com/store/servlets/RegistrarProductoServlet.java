@@ -19,10 +19,7 @@ import javax.naming.NamingException; // Para el JNDI
 import java.sql.Connection; // Para la conexión a la base de datos
 import java.sql.SQLException; // Para manejar excepciones de SQL
 
-/**
- *
- * @author deyve
- */
+
 @WebServlet(name = "RegistrarProductoServlet", urlPatterns = {"/RegistrarProductoServlet"})
 public class RegistrarProductoServlet extends HttpServlet {
 
