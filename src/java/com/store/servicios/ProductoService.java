@@ -9,10 +9,7 @@ import com.store.modelo.Producto;
 import java.sql.Connection;
 import java.util.List;
 
-/**
- *
- * @author deyve
- */
+
 public class ProductoService {
     private final ProductoDAO productoDAO;
 
