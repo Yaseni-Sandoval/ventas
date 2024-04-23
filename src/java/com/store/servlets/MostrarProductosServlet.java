@@ -20,10 +20,7 @@ import javax.naming.NamingException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-/**
- *
- * @author deyve
- */
+
 @WebServlet(name = "MostrarProductosServlet", urlPatterns = {"/"})
 public class MostrarProductosServlet extends HttpServlet {
 
