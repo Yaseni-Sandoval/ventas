@@ -19,22 +19,10 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.sql.Connection;
 import java.sql.SQLException;
-/**
- *
- * @author deyve
- */
+
 @WebServlet(name = "BuscarProductoServlet", urlPatterns = {"/BuscarProductoServlet"})
 public class BuscarProductoServlet extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     
     private DataSource dataSource;
 
